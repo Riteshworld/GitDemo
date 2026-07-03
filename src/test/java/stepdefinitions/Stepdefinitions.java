@@ -48,7 +48,7 @@ public class Stepdefinitions extends Utils {
 			responce = res.when().get(responseapi.getResource());
 		}
 		
-		System.out.println(responseapi.getResource());
+		System.out.println(responseapi.getResource()+"responces_code");
 	}
 
 	@Then("{string} in responce body is {string}")
